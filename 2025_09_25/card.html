@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 300px;
+            border: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            margin: 20px;
+
+        }
+
+        .card:hover{
+            transform: scale(1.05);
+        }
+
+        .card img{
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content h2{
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .custom-btn{
+            background-color: rgb(77, 219,238);
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .custom-btn:hover{
+            background-color: white;
+            color: aqua;
+            border: 2px solid rgb(77, 219,238);
+        }
+
+
+
+        @media(max-width:768px){
+            .card{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src=" https://www.google.com/search?q=pictures&sca_esv=e2c71ab81425b6e6&sxsrf=AE3TifNVRopzem_TUEMm6tzdXi3Xo0appA:1758775635232&source=hp&biw=1366&bih=651&ei=U8nUaLDUC-ap4-EPqdvJ0Qk&iflsig=AOw8s4IAAAAAaNTXY-QmVrG41x2JcP9T3OBSpSc-gHqd&oq=pict&gs_lp=EgNpbWciBHBpY3QqAggAMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjgMVAPWNEhcAB4AJABAJgB3gOgAaoLqgEJMC4xLjIuMS4xuAEByAEA-AEBigILZ3dzLXdpei1pbWeYAgWgArsMqAIKwgIKECMYJxjJAhjqAsICBxAjGCcYyQLCAgsQABiABBixAxiDAcICCxAAGIAEGLEDGIoFwgIOEAAYgAQYsQMYgwEYigWYA4kDkgcJMC4xLjIuMS4xoAfgKbIHCTAuMS4yLjEuMbgHuwzCBwczLTQuMC4xyAd4&sclient=img&udm=2#vhid=0dysXQccD6R0OM&vssid=mosaic" alt="" !impoi> 
+        <div class="card-content"></div>
+        <h2>card Title</h2>
+        <p>This is a simple description inside the card ....   
+        </p>
+
+        <button>Learn More</button>
+    </div>
+</body>
+</html>
